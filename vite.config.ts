@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/UNAX-WEB",
+  base: "/unax.github.io",
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
